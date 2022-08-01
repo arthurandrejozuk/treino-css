@@ -1,0 +1,33 @@
+.topicos{
+    margin-top: 1em;
+    background-color: rgb(61, 89, 230);
+    text-align: center;
+    padding: 1em 0
+}
+.topicos__titulo{
+    color: #fff;
+    margin-bottom: 1em;
+    font-weight: 300;
+    font-size: 24px;
+}
+.topicos__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.topicos__item{
+    margin: 2em 0.5em;
+}
+.topicos__link{
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    padding: 1em;
+    background-color: rgb(192, 125, 2);
+}
+
+@media screen and (max-width:500px){
+    .topicos__titulo{
+        font-size: 16px;
+    }
+}
